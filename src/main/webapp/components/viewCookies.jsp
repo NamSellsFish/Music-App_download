@@ -3,7 +3,7 @@
 
 <head>
 <meta charset="ISO-8859-1">
-<title>Registration</title>
+<title>View Cookies</title>
 <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
