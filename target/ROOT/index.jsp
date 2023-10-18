@@ -33,6 +33,10 @@
 	<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 	<main
 		class="md:container w-fit mx-auto my-8 flex flex-col place-items-center">
+		
+		<!-- Breadcrumb -->
+		<c:import url="/components/breadcrumb.html" />
+		
 		<!-- Logo -->
 		<a href="./"
 			class="flex items-center mb-6 text-2xl font-semibold text-gray-900 dark:text-white">
