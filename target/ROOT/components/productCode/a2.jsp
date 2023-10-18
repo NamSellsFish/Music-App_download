@@ -9,6 +9,7 @@
 
 <body>
 	<main class="md:container mx-auto my-4">
+		<c:import url="/components/breadcrumb.html" />
 		<a href="./"
 			class="flex items-center mb-6 text-2xl font-semibold text-gray-900 dark:text-white">
 			<img class="w-12 h-12 mr-2" src="./public/logo/weblogo.png"
