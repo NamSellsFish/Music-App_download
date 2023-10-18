@@ -8,6 +8,7 @@
 </head>
 
 <body>
+		<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 	<main class="md:container mx-auto my-4">
 		<c:import url="/components/breadcrumb.html" />
 		<a href="./"
@@ -105,7 +106,6 @@
 				</tbody>
 			</table>
 		</div>
-		<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 		<div class="flex justify-between">
 
 			<c:import url="/components/ReturnButton.html" />
